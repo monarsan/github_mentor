@@ -69,3 +69,4 @@ def predicts():
 
 if __name__ == "__main__":
     app.run()
+    #メンターの松本です。よろしくお願いします。
