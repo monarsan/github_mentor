@@ -18,8 +18,8 @@ model = MLPClassifier(solver="sgd", random_state=0, max_iter=3000)
 # 学習
 model.fit(x_train, y_train)
 pred = model.predict(x_test)
+print("変えました")
 
-# 学習済みモデルの保存
 joblib.dump(model, "nn.pkl", compress=True)
 
 # 予測精度
